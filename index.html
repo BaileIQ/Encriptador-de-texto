@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div>       
+            <img class="header__logo" src="./img/logoaluralogo.svg" alt="Logo de Alura">
+        </div>
+
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresoTexto" class="ingreso__texto" placeholder="Ingrese Texto aquí"></textarea>
+                <div class="footer__left">
+                    <img src="./img/exclamacion.svg.svg" alt="">
+                    <span class="left__info">Solo letras en minúsculas sin acentos</span>
+                    <div class="left__botones">
+                        <button id="botonEncriptar" class="boton__encriptar" >Encriptar</button>
+                        <button id="botonDesencriptar" class="boton__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="Right" class="Right">
+                <img id="munheco" class="munheco" src="./img/muñeco.svg" alt="">
+                <p id="mensajeFinal" class="mensaje__final">Ningún mensaje fue encontrado</p>
+                <P id="RightInfo" class="Right__info">Ingrese el texto que desees encriptar o desencriptar</P>
+                <button id="botonCopiar" class="boton__copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
